@@ -56,7 +56,7 @@ _handleSpeakingUpdate = ({isVoice} = {}) => {
 // TO STOP:
 // Stops voice activity detection
 RNWebrtcVad.stop();
-WebRtcVad.removeEventListener('speakingUpdate', _handleSpeakingUpdate);
+RNWebrtcVad.removeEventListener('speakingUpdate', _handleSpeakingUpdate);
 
 
 ```
