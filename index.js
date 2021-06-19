@@ -1,6 +1,4 @@
-
 import { NativeModules, Platform, NativeEventEmitter} from 'react-native';
-import Promise from 'bluebird';
 
 const { RNWebrtcVad } = NativeModules;
 const RNWebrtcVadEmitter = new NativeEventEmitter(RNWebrtcVad);
