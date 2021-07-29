@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNWebrtcVad
                    DESC
-  s.homepage     = "https://www.github.com/TeamGuilded/react-native-webrtc-vad"
+  s.homepage     = "https://www.github.com/yakovlevgleb/react-native-webrtc-vad"
   s.license      = "MIT"
-  s.author       = "https://github.com/TeamGuilded/react-native-webrtc-vad/graphs/contributors"
+  s.author       = "https://github.com/yakovlevgleb/react-native-webrtc-vad/graphs/contributors"
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/TeamGuilded/react-native-webrtc-vad.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/yakovlevgleb/react-native-webrtc-vad.git", :tag => "master" }
 
   s.source_files  = "ios/**/*.{h,m}"
   s.framework    = "AVFoundation", "AudioToolbox"
@@ -25,5 +25,3 @@ Pod::Spec.new do |s|
   s.dependency "React"
 
 end
-
-
