@@ -121,8 +121,8 @@ public class AudioInputController {
                 return "ERROR_INVALID_OPERATION";
             case AudioRecord.ERROR_BAD_VALUE:
                 return "ERROR_BAD_VALUE";
-            case AudioRecord.ERROR_DEAD_OBJECT:
-                return "ERROR_DEAD_OBJECT";
+            // case AudioRecord.ERROR_DEAD_OBJECT:
+            //     return "ERROR_DEAD_OBJECT";
             case AudioRecord.ERROR:
                 return "ERROR";
             default:

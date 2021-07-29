@@ -12,10 +12,11 @@
   "author": "",
   "license": "Apache-2.0",
   "homepage": "https://github.com/yakovlevgleb/react-native-webrtc-vad",
-  "peerDependencies": {
-    "react-native": "0.64.2"
-  },
+  "peerDependencies": {},
   "devDependencies": {
-    "react-native": "0.64.2"
+    "react-native": "^0.64.2"
+  },
+  "dependencies": {
+    "react-native": "^0.64.2"
   }
 }
